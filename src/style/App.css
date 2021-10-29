@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.App {
+  margin: 10px auto;
+  max-width: 800px;
+  width: 100%;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+.list-item--date,
+.list-item--time,
+.list-item--total {
+  max-width: 16.5%;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+}
